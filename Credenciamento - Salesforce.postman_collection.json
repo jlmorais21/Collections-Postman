@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "7733dba6-698c-4cc2-94fa-9d9c740ba09b",
+		"name": "Credenciamento - Salesforce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consultar status",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbi50aXBvIjoiU0FMRVNfRk9SQ0UiLCJ0b2tlbi52ZXJzYW8iOiJULTAwMDIiLCJpc3MiOiJCb2xlaWEiLCJ0b2tlbi5kYXRhR2VyYWNhbyI6MTU3MDEyNjg5OCwidXN1YXJpby5wZXJtaXNzb2VzIjpbIkZST1RBX1BSRV9DQURBU1RSQVIiLCJGUk9UQV9IQUJJTElUQVIiLCJGUk9UQV9BTFRFUkFSIiwiRlJPVEFfRVhDTFVJUiIsIkZST1RBX0FUSVZBUl9URU1QT1JBUklBTUVOVEUiLCJBUElfQ1JFREVOQ0lBTUVOVE9fUERWX0NPTlNVTFRBUl9TVEFUVVMiLCJBUElfQ1JFREVOQ0lBTUVOVE9fUERWX0hBQklMSVRBUiIsIkFQSV9DUkVERU5DSUFNRU5UT19QRFZfTElTVEFSX0JBTkRFSVJBIl0sImV4cCI6MTU4NTY3ODg5OCwidXN1YXJpby5pZCI6LTc0Njc4NzkxNDU0Nzg3ODY2MzYsInVzdWFyaW8ubm9tZSI6IlNhbGVzRm9yY2UiLCJ1c3VhcmlvLnRpcG8iOiJTSVNURU1BX0VYVEVSTk8iLCJ0b2tlbi5jb250YWRvclJlbm92YWNvZXMiOjB9.QKV4HBsvL6036PGXMv-GiWz4XgLM6dT242zkCgHQSaE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://34.66.61.51:3000/api/credenciamentoPosto/consultar/status/cnpj/15796949000117/cpf/57778528070",
+					"protocol": "http",
+					"host": [
+						"34",
+						"66",
+						"61",
+						"51"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"credenciamentoPosto",
+						"consultar",
+						"status",
+						"cnpj",
+						"15796949000117",
+						"cpf",
+						"57778528070"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar bandeiras",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbi50aXBvIjoiU0FMRVNfRk9SQ0UiLCJ0b2tlbi52ZXJzYW8iOiJULTAwMDIiLCJpc3MiOiJCb2xlaWEiLCJ0b2tlbi5kYXRhR2VyYWNhbyI6MTU3MDEyNjg5OCwidXN1YXJpby5wZXJtaXNzb2VzIjpbIkZST1RBX1BSRV9DQURBU1RSQVIiLCJGUk9UQV9IQUJJTElUQVIiLCJGUk9UQV9BTFRFUkFSIiwiRlJPVEFfRVhDTFVJUiIsIkZST1RBX0FUSVZBUl9URU1QT1JBUklBTUVOVEUiLCJBUElfQ1JFREVOQ0lBTUVOVE9fUERWX0NPTlNVTFRBUl9TVEFUVVMiLCJBUElfQ1JFREVOQ0lBTUVOVE9fUERWX0hBQklMSVRBUiIsIkFQSV9DUkVERU5DSUFNRU5UT19QRFZfTElTVEFSX0JBTkRFSVJBIl0sImV4cCI6MTU4NTY3ODg5OCwidXN1YXJpby5pZCI6LTc0Njc4NzkxNDU0Nzg3ODY2MzYsInVzdWFyaW8ubm9tZSI6IlNhbGVzRm9yY2UiLCJ1c3VhcmlvLnRpcG8iOiJTSVNURU1BX0VYVEVSTk8iLCJ0b2tlbi5jb250YWRvclJlbm92YWNvZXMiOjB9.QKV4HBsvL6036PGXMv-GiWz4XgLM6dT242zkCgHQSaE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://34.66.61.51:3000/api/credenciamentoPosto/listar/bandeira",
+					"protocol": "http",
+					"host": [
+						"34",
+						"66",
+						"61",
+						"51"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"credenciamentoPosto",
+						"listar",
+						"bandeira"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Habilitar posto",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbi50aXBvIjoiU0FMRVNfRk9SQ0UiLCJ0b2tlbi52ZXJzYW8iOiJULTAwMDIiLCJpc3MiOiJCb2xlaWEiLCJ0b2tlbi5kYXRhR2VyYWNhbyI6MTU3MDEyNjg5OCwidXN1YXJpby5wZXJtaXNzb2VzIjpbIkZST1RBX1BSRV9DQURBU1RSQVIiLCJGUk9UQV9IQUJJTElUQVIiLCJGUk9UQV9BTFRFUkFSIiwiRlJPVEFfRVhDTFVJUiIsIkZST1RBX0FUSVZBUl9URU1QT1JBUklBTUVOVEUiLCJBUElfQ1JFREVOQ0lBTUVOVE9fUERWX0NPTlNVTFRBUl9TVEFUVVMiLCJBUElfQ1JFREVOQ0lBTUVOVE9fUERWX0hBQklMSVRBUiIsIkFQSV9DUkVERU5DSUFNRU5UT19QRFZfTElTVEFSX0JBTkRFSVJBIl0sImV4cCI6MTU4NTY3ODg5OCwidXN1YXJpby5pZCI6LTc0Njc4NzkxNDU0Nzg3ODY2MzYsInVzdWFyaW8ubm9tZSI6IlNhbGVzRm9yY2UiLCJ1c3VhcmlvLnRpcG8iOiJTSVNURU1BX0VYVEVSTk8iLCJ0b2tlbi5jb250YWRvclJlbm92YWNvZXMiOjB9.QKV4HBsvL6036PGXMv-GiWz4XgLM6dT242zkCgHQSaE",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \"cnpj\":\"69153590000199\",\r\n   \"nome\":\"Posto Dextra\",\r\n   \"nomeRazao\":\"Posto Dextra digital LTDA\",\r\n   \"bandeira\":{  \r\n      \"id\":1\r\n   },\r\n   \"usuario\":{  \r\n      \"cpf\":\"89651889039\",\r\n      \"nome\":\"Nome do usuário\",\r\n      \"email\":\"wesley.barros@dextra-sw.com\",\r\n      \"celular\":\"(19) 11111-1111\"\r\n   },\r\n   \"responsavelLegal\":{  \r\n      \"cpf\":\"640.290.030-36\",\r\n      \"nome\":\"Nome do responsável legal\",\r\n      \"email\":\"responsavel.legal6@hotmail.com\",\r\n      \"celular\":\"(19) 99999-9999\"\r\n   },\r\n   \"termosContrato\":{  \r\n      \"taxa\":1.1,\r\n      \"perfil\":\"RODO_REDE\"\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "http://34.66.61.51:3000/api/credenciamentoPosto/habilitar/cnpj/69153590000199/cpf/89651889039?sf=false",
+					"protocol": "http",
+					"host": [
+						"34",
+						"66",
+						"61",
+						"51"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"credenciamentoPosto",
+						"habilitar",
+						"cnpj",
+						"69153590000199",
+						"cpf",
+						"89651889039"
+					],
+					"query": [
+						{
+							"key": "sf",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

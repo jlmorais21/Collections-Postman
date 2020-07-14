@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "c0f457ea-3673-7dbb-abf7-bf34b087ecb6",
+		"name": "Desktop\\Postman-dispute",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://uat-api.serasaexperian.com.br/cadastro-positivo/historico-abertura-cancelamento/v1/historico  ",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "Pb5Qa0MsHXj394QzYUwlB5TcbEvoHfT0"
+					},
+					{
+						"key": "X-Amz-Date",
+						"value": "08/04/2019"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Auth",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImIwM2M3M2RhLWI5MTYtNGZhZi04NTBhLTMyYzg5OGEzNTJiYyIsImV4cCI6MTU1NDk5NTQ3MiwiaXNzIjoiYXV0aCJ9.j0hr1X0wgANxwCvA7D_C23n5Fx4NDBuUtj8ay1-z-nI"
+					}
+				],
+				"url": {
+					"raw": "https://uat-api.serasaexperian.com.br/cadastro-positivo/historico-abertura-cancelamento/v1/historico  ",
+					"protocol": "https",
+					"host": [
+						"uat-api",
+						"serasaexperian",
+						"com",
+						"br"
+					],
+					"path": [
+						"cadastro-positivo",
+						"historico-abertura-cancelamento",
+						"v1",
+						"historico  "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://uat-api.serasaexperian.com.br/cadastro-positivo/consulentes/v1/empresas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "Pb5Qa0MsHXj394QzYUwlB5TcbEvoHfT0"
+					},
+					{
+						"key": "X-Amz-Date",
+						"value": "08/04/2019"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Auth",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImIwM2M3M2RhLWI5MTYtNGZhZi04NTBhLTMyYzg5OGEzNTJiYyIsImV4cCI6MTU1NDc1Njg4MCwiaXNzIjoiYXV0aCJ9.38Dd2LUtYsMbBE7UbwEbVhXcIw7A9JJrObSJYzIYFhE"
+					}
+				],
+				"url": {
+					"raw": "https://uat-api.serasaexperian.com.br/cadastro-positivo/consulentes/v1/empresas",
+					"protocol": "https",
+					"host": [
+						"uat-api",
+						"serasaexperian",
+						"com",
+						"br"
+					],
+					"path": [
+						"cadastro-positivo",
+						"consulentes",
+						"v1",
+						"empresas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://uat-api.serasaexperian.com.br/cadastro-positivo/fontes/v1/empresas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "Pb5Qa0MsHXj394QzYUwlB5TcbEvoHfT0"
+					},
+					{
+						"key": "X-Amz-Date",
+						"value": "08/04/2019"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Auth",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImIwM2M3M2RhLWI5MTYtNGZhZi04NTBhLTMyYzg5OGEzNTJiYyIsImV4cCI6MTU1NDk5NTQ3MiwiaXNzIjoiYXV0aCJ9.j0hr1X0wgANxwCvA7D_C23n5Fx4NDBuUtj8ay1-z-nI"
+					}
+				],
+				"url": {
+					"raw": "https://uat-api.serasaexperian.com.br/cadastro-positivo/fontes/v1/empresas",
+					"protocol": "https",
+					"host": [
+						"uat-api",
+						"serasaexperian",
+						"com",
+						"br"
+					],
+					"path": [
+						"cadastro-positivo",
+						"fontes",
+						"v1",
+						"empresas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://uat-api.serasaexperian.com.br/cadastro-positivo/informacoes-positivas/v1/informacoes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "client-id",
+						"value": "Pb5Qa0MsHXj394QzYUwlB5TcbEvoHfT0"
+					},
+					{
+						"key": "X-Amz-Date",
+						"value": "08/04/2019"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Auth",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImIwM2M3M2RhLWI5MTYtNGZhZi04NTBhLTMyYzg5OGEzNTJiYyIsImV4cCI6MTU1NDk5NTQ3MiwiaXNzIjoiYXV0aCJ9.j0hr1X0wgANxwCvA7D_C23n5Fx4NDBuUtj8ay1-z-nI"
+					}
+				],
+				"url": {
+					"raw": "https://uat-api.serasaexperian.com.br/cadastro-positivo/informacoes-positivas/v1/informacoes",
+					"protocol": "https",
+					"host": [
+						"uat-api",
+						"serasaexperian",
+						"com",
+						"br"
+					],
+					"path": [
+						"cadastro-positivo",
+						"informacoes-positivas",
+						"v1",
+						"informacoes"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
